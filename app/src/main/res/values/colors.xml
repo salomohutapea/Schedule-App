@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorActive">#2529D8</color>
+    <color name="colorNotActive">#1AFFFFFF</color>
+    <color name="colorOtherText">#80FFFFFF</color>
+    <color name="colorClass">#02D290</color>
+    <color name="colorSchedules">#14030616</color>
+    <color name="colorMain">#030616</color>
+    <color name="colorLink">#FF005E</color>
+    <color name="colorAccent">#FF005E</color>
+    <color name="colorWhite">#FFF</color>
+
+</resources>
