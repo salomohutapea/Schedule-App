@@ -48,13 +48,6 @@ class Thu : AppCompatActivity() {
             overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out)
         }
 
-        materiPemodelan.setOnClickListener {
-            val url = "https://drive.google.com/drive/folders/1RHuKRHqTT100gvjA7uejWTtAOlWKgZTv?usp=sharing"
-            val i = Intent(Intent.ACTION_VIEW)
-            i.data = Uri.parse(url)
-            startActivity(i)
-        }
-
         materiSismik.setOnClickListener {
             val url = "https://drive.google.com/drive/folders/1zZ1QU56_I12aR-3MVPZ1YOC7_UXyUD1r?usp=sharing"
             val i = Intent(Intent.ACTION_VIEW)

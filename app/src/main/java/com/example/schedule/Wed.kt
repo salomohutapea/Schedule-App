@@ -48,6 +48,13 @@ class Wed : AppCompatActivity() {
             overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out)
         }
 
+        materiPemodelan.setOnClickListener {
+            val url = "https://drive.google.com/drive/folders/1RHuKRHqTT100gvjA7uejWTtAOlWKgZTv?usp=sharing"
+            val i = Intent(Intent.ACTION_VIEW)
+            i.data = Uri.parse(url)
+            startActivity(i)
+        }
+
         materiAPL.setOnClickListener {
             val url = "https://drive.google.com/drive/folders/1CHWyDnQSnuQbu1Uns_Gw1wKP4OuQi6sg?usp=sharing"
             val i = Intent(Intent.ACTION_VIEW)
